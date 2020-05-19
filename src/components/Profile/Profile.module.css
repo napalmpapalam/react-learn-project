@@ -1,0 +1,16 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.promo img {
+  border-radius: 1rem;
+  width: 50%;
+}
+
+.avatar img {
+  width: 5rem;
+  height: 5rem;
+}

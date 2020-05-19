@@ -1,4 +1,4 @@
-#root {
+body {
   background: #dbdbdb;
 }
 
@@ -6,8 +6,8 @@
   display: grid;
   max-width: 1100px;
   grid-template-areas:
-    'header header header'
-    'sidebar content content';
+    "header header header"
+    "sidebar content content";
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 0.8rem;
@@ -15,5 +15,13 @@
   box-sizing: border-box;
   font-size: 1.2rem;
   margin: 0 auto;
+  padding: 1rem;
+}
+
+.app-wrapper-content {
+  grid-area: content;
+  background: rgba(61, 61, 61, 0.2);
+  height: 100%;
+  border-radius: 1rem;
   padding: 1rem;
 }

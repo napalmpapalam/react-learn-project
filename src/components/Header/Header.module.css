@@ -1,0 +1,10 @@
+.header {
+  grid-area: header;
+  border-radius: 1rem;
+  background: rgb(61, 61, 61);
+}
+
+.header h1 {
+  margin: 0 0 0 1rem;
+  display: inline-block;
+}
