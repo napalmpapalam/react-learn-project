@@ -1,22 +1,23 @@
-.item {
+.post {
   display: flex;
   margin: 0.5rem;
-  width: 70%;
+  /* width: 70%; */
   justify-content: space-evenly;
 }
 
-.like_dislike {
+.votes {
   display: flex;
   align-items: center;
   font-size: 0.8rem;
   color: #000;
   margin: 0 0 0 0.2rem;
 }
-.like_dislike span {
+.votes__text {
   margin: 0 0.3rem 0 0.2rem;
 }
 
 .avatar {
-  width: 10%;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
 }

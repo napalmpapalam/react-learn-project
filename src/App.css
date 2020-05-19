@@ -1,27 +1,23 @@
 body {
-  background: #dbdbdb;
+  background: #f7f7f7;
+  box-sizing: border-box;
+  color: #282c34;
+  font-size: 1rem;
 }
 
 .app-wrapper {
   display: grid;
-  max-width: 1100px;
   grid-template-areas:
-    "header header header"
-    "sidebar content content";
+    'header header header'
+    'navbar content content';
   grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 0.8rem;
+  grid-template-columns: 1fr 10fr;
   color: aliceblue;
-  box-sizing: border-box;
   font-size: 1.2rem;
-  margin: 0 auto;
-  padding: 1rem;
 }
 
 .app-wrapper-content {
   grid-area: content;
   background: rgba(61, 61, 61, 0.2);
   height: 100%;
-  border-radius: 1rem;
-  padding: 1rem;
 }

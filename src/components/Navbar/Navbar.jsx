@@ -3,7 +3,7 @@ import style from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <nav className={style.nav}>
+    <nav className={style.menu}>
       <div>
         <a href="/profile" className={style.item}>
           Profile
@@ -15,7 +15,7 @@ const Navbar = () => {
         </a>
       </div>
       <div>
-        <a href="/feed" className={style.item}>
+        <a href="/news" className={style.item}>
           News
         </a>
       </div>
